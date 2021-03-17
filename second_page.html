@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Second vue</title>
+
+        <script src="lib/vue.js"></script>
+    </head>
+
+    <body>
+        
+        <div id="element"><p>{{first_msg}}</p></div>
+        
+    
+    </body>
+
+    <script src="router.js"></script>
+    <script>
+        // var first_msg ='meesage';
+        
+        var vue_obj = new Vue({
+            el:"#element",
+            data:{
+                first_msg:'second pagemssage given here',
+            },
+            
+        });
+
+
+    </script>
+
+</html>
