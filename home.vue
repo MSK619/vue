@@ -1,7 +1,7 @@
 
     <!-- <template> -->
         
-        <div id="element"><p>{{first_msg}}</p></div>
+        <div id="element"><p>{{first_msg}}</p></div>fdsfd
         
         <b>
             <router-link to='/second_page'>Got To SEcond page</router-link>
